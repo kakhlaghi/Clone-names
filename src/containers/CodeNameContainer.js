@@ -14,7 +14,7 @@ class CodeNameContainer extends Component {
 
     render(){
         return(
-            <div>
+            <div class='board'>
             
             </div>
         )
