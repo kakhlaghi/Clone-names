@@ -16,7 +16,7 @@ class App extends Component {
             Made With React
           </a>
         </header>
-        <span> CLONENAMES </span>
+        <span className="App-header"> CLONENAMES </span>
       </div>
     );
   }
