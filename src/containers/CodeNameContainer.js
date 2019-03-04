@@ -10,15 +10,18 @@ class CodeNameContainer extends Component {
         }
     }
 
-
-
     render(){
+            const renderCard = this.state.wordList.map((array)=>{
+                return array
+            })
         return(
             <div class='board'>
-            
+                {renderCard}
             </div>
         )
     }
+
+
 
 
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Main from './components/MainGame'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           </a>
         </header>
         <span className="App-header"> CLONENAMES </span>
+        <MainGame />
       </div>
     );
   }
