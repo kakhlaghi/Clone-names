@@ -1,18 +1,27 @@
-import React, {component} from 'react'
-import WordList from '/WordList'
+import React, {Component} from 'react'
+import WordList from '../components/WordList.js'
 
 
-const CodeNameCard = ({card}) => {
-
-    const generateWord= () => {
-        return WordList[Math.floor(Math.random()*10)]
+class CodeNameCard extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            words: WordList
+        }
     }
 
-    return(
-        <div>
-            <span class='word'>{generateWord()}</span>
-        </div>
-    )
+
+    render(){
+        debugger
+        const generateWord = () => {
+            return WordList[Math.floor(Math.random()*10)]
+        }
+        return(
+            <div>
+                <span class='word'>{generateWord()}</span>
+            </div>
+        )
+    }
 }
 
 export default CodeNameCard
