@@ -1,7 +1,7 @@
-import React, {component} from 'react'
+import React from 'react'
 
-const wordList = ({wordList}) => {
-    const wordList = [
+const WordList = ({List}) => {
+    const List = [
         'ARES', 'AUSTRALIA', 'APPLE', 'AXE',
         'BERRY', 'BOTTOMS UP', 'BONE', 'BAR',
         'CAPTAIN', 'CREAM', 'CENTAUR', 'COCKTAIL',
@@ -23,6 +23,8 @@ const wordList = ({wordList}) => {
     ]
 
     return(
-        wordList
+        List
     )
 }
+
+export default WordList

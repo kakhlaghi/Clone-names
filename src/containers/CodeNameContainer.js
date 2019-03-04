@@ -21,7 +21,6 @@ class CodeNameContainer extends Component {
         )
     }
 
-
-
-
 }
+
+export default CodeNameContainer

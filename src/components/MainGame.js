@@ -1,9 +1,11 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
 import About from './About';
+import NoMatch from './NoMatch';
+import CodeNameContainer from '../containers/CodeNameContainer'
 
 
-const Main = () => {
+const MainGame = () => {
 
     return( 
         <div> 
@@ -15,3 +17,5 @@ const Main = () => {
         </div>
     )
 }
+
+export default MainGame
