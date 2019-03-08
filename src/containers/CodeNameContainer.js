@@ -23,4 +23,6 @@ class CodeNameContainer extends Component {
 
 }
 
+const mapStateToProps
+
 export default CodeNameContainer

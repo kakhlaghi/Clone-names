@@ -1,5 +1,6 @@
 import React, {component} from 'react'
 import WordList from '/WordList'
+import {connect} from 'react-redux'
 
 
 const CodeNameCard = ({card}) => {
@@ -15,4 +16,10 @@ const CodeNameCard = ({card}) => {
     )
 }
 
-export default CodeNameCard
+const mapStateToProps = (state) => {
+    return {
+        words: state.wordList
+    }
+} 
+
+export default connect(mapStateToProps)(CodeNameCard);

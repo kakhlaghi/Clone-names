@@ -22,9 +22,6 @@ const WordList = ({List}) => {
         'ROSE', 'RUNNER', 'ROGER', 'ROBBER' 
     ]
 
-    return(
-        List
-    )
 }
 
 export default WordList
