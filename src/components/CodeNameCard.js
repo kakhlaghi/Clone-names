@@ -1,9 +1,11 @@
-import React, {component} from 'react'
-import WordList from '/WordList'
+import React, {useState} from 'react'
+import WordList from '../components/WordList'
 import {connect} from 'react-redux'
 
 
 const CodeNameCard = ({card}) => {
+
+    const [words, setWords] = useState(this.state)
 
     const generateWord= () => {
         return WordList[Math.floor(Math.random()*10)]

@@ -1,6 +1,8 @@
 import React from 'react'
 
-const WordList = ({List}) => {
+
+const WordList = ({props}) => {
+
     const List = [
         'ARES', 'AUSTRALIA', 'APPLE', 'AXE',
         'BERRY', 'BOTTOMS UP', 'BONE', 'BAR',
